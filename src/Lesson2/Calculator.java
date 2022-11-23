@@ -3,54 +3,42 @@ package Lesson2;
 public class Calculator {
 
    public int summary (int a, int b){
-      int c = a + b;
-      return c;
+      return a + b;
   }
    public long summary (long a, long b){
-      long c = a + b;
-      return c;
+      return a + b;
   }
   public double summary (double a, double b){
-      double c = a + b;
-      return c;
+      return a + b;
   }
 
     public int substraction (int a, int b){
-        int c = a - b;
-        return c;
+        return a - b;
     }
     public long substraction (long a, long b){
-        long c = a - b;
-        return c;
+        return a - b;
     }
     public double substraction (double a, double b){
-        double c = a - b;
-        return c;
+        return a - b;
     }
 
     public long multiplication (int a, int b){
-        long c = a * b;
-        return c;
+        return a * b;
     }
     public long multiplication (long a, long b){
-        long c = a * b;
-        return c;
+        return a * b;
     }
     public double multiplication (double a, double b){
-        double c = a * b;
-        return c;
+        return a * b;
     }
 
     public double division (int a, int b){
-        double c = a / b;
-        return c;
+        return (double) a / b;
     }
     public double division (long a, long b){
-        double c = a / b;
-        return c;
+        return (double) a / b;
     }
     public double division (double a, double b){
-        double c = a / b;
-        return c;
+        return a / b;
     }
 }
